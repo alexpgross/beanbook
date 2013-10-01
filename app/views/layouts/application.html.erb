@@ -7,9 +7,23 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<h1>Beanbook</h1>
+	<div class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+		<a href="" class="brand">Beanbook</a>
+				<ul class="nav nav-pills">
+				  <li class="active">
+				    <%= link_to "All Statuses", statuses_path %>
+				  </li>
+				  <li><a href="#">...</a></li>
+				  <li><a href="#">...</a></li>
+				</ul>
+			</div>
+		</div>
+</div>
+<div class="container">
 <%= yield %>
-<em>Footer</em>
+</div>
    <p class="notice"><%= notice %></p>
    <p class="alert"><%= alert %></p>
 

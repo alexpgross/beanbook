@@ -7,6 +7,8 @@ gem 'rails', '4.0.0'
 gem 'pg'
 
 gem 'devise'
+
+gem 'simple_form'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
