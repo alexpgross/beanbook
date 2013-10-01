@@ -1,0 +1,9 @@
+development:
+  adapter: postgresql
+  database: beanbook_development
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: beanbook_test
+
